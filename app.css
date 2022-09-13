@@ -1,0 +1,47 @@
+body{
+    background-color: #87CEEB;
+}
+
+#main, #title,
+#p, #txt-box{
+    font-family: sans-serif;
+}
+
+#main{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    margin-bottom: 2%;
+    font-size: 40px;
+}
+
+#p{
+    align-self: flex-start;
+    margin-left: 41%;
+}
+
+#txt-box{
+    margin-top: 5%;
+    width: 400px;
+    height: 500px;
+    background-color: #FFE4C4;
+    padding: 1.4%;
+    text-align: justify;
+}
+
+#img{
+    background: #ffab62;
+    width: 30%;
+    height: 69%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
