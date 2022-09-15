@@ -1,5 +1,5 @@
 body{
-    background-color: #87CEEB;
+    background-color: #e0e0e0;
 }
 
 #main, #title,
@@ -34,14 +34,18 @@ body{
     background-color: #FFE4C4;
     padding: 1.4%;
     text-align: justify;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  32px 32px 63px #bebebe,
+             -32px -32px 63px #ffffff;
 }
 
-#img{
+/* #img{
     background: #ffab62;
-    width: 35%;
-    height: 100%;
+    width: ;
+    height: 40%;
     position: absolute;
     bottom: 0;
     left: 0;
     display: none;
-}
+} */

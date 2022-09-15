@@ -1,5 +1,5 @@
 const data = [
-     '<br>&nbsp;&nbsp;&nbsp;&nbsp;Famualia super kudurista vou fazer a venda e sessão de autógrafo da minha Ep com Hosme Fosgo e come lânsmina agora acreditas no malusco. Preço no valor de greituíto. Loscal Mêdiateca Zé Dú. Agradeceria atodos kudurista no super kudurista. Obrigueido.',
+     '<br>&nbsp;&nbsp;&nbsp;&nbsp;Famúalia super kudurista vou fazeire a vuainda e sessuí de autógrafo da minha Ep com Hosme Fosgo e Come Lânsmina agora acreditas no malusco. Preço no valor de greituíto. Loscal Mêdiateca Zé Dú. Agradeceria atodos kudurista no super kudurista. Obrigueido.',
      '<br>&nbsp;&nbsp;&nbsp;&nbsp;Bailarino, surruaia pelo poder de acreditar em ti losko paranoico e voa que voa faz o muaindo conhecer o teu melhor um abreiço do vosso = SUPER KUDURISTA = Príncipe Ouro-Negro.',
      '<br>&nbsp;&nbsp;&nbsp;&nbsp;Estou de Malas feitas tenho fé que vou levar Angola no Brasil nossa cultura nosso kuduairo e homenagear os nossos Kings do kuduairo eles sabem quem são ai minha vuaida.',
      '<br>&nbsp;&nbsp;&nbsp;&nbsp;Aí minha vuaida losko paranoico já estão a respeitar o kuduairo melhor do que nunca assim são as condições que esperam o Rei do kuduairo internacional no Lubeingo as selvas de pelmas para organização.',
@@ -17,8 +17,8 @@ let submit = document.querySelector('#s');
 
 submit.addEventListener('click', function(){
     const quantidadeDeParagrafos = range.value;
-    const imagemDoKuduairo = document.querySelector('img');
-    imagemDoKuduairo.style.display = "initial";
+    // const imagemDoKuduairo = document.querySelector('img');
+    // imagemDoKuduairo.style.display = "initial"; // test to show up the image with the button click.
     removeParagrafo();
     imprimeParagrafos(quantidadeDeParagrafos);
 });
