@@ -3,7 +3,7 @@ body{
 }
 
 #main, #title,
-#p, #txt-box{
+#p, #txt-box, #by{
     font-family: sans-serif;
 }
 
@@ -40,12 +40,21 @@ body{
              -32px -32px 63px #ffffff;
 }
 
-/* #img{
-    background: #ffab62;
-    width: ;
-    height: 40%;
+#img{
     position: absolute;
     bottom: 0;
     left: 0;
-    display: none;
-} */
+}
+
+#by{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+}
+
+.by{
+    font-size: 11px;
+}
